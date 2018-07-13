@@ -17,7 +17,7 @@ public class AsyncAuthTest extends AsyncAuthTestBase {
     Session session;
     ChannelShell channel;
 
-    session = jsch.getSession("whatever", "localhost", 5000);
+    session = jsch.getSession("whatever", "58.181.37.138", 5000);
     session.setPassword("whocares");
     session.setUserInfo(new UserInfo() {
       @Override
